@@ -1,0 +1,7 @@
+services:
+  web:
+    build:
+      context: ./
+      target: runner
+    volumes:
+      - .:/app
